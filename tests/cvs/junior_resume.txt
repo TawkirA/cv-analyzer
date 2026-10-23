@@ -1,0 +1,72 @@
+MICHAEL CHEN
+Austin, TX | (512) 555-3456 | michael.chen@email.com
+linkedin.com/in/michaelchen | github.com/michaelchen
+EDUCATION
+Bachelor of Science in Computer Science
+University of Texas at Austin | Austin, TX
+Graduated: May 2024 | GPA: 3.7/4.0
+Relevant Coursework: Data Structures, Algorithms, Web Development, Database 
+Systems, Software Engineering, Object-Oriented Programming, Computer Networks
+Honors: Dean's List (6 semesters), CS Department Scholarship Recipient
+TECHNICAL SKILLS
+Languages: Python, Java, JavaScript, HTML5, CSS3, SQL
+Frameworks & Libraries: React, Node.js, Express, Django, Flask, Bootstrap
+Databases: PostgreSQL, MongoDB, MySQL
+Tools & Technologies: Git, GitHub, Docker, REST APIs, Postman, VS Code
+Concepts: Object-Oriented Programming, Data Structures, Algorithms, Agile/Scrum
+RELEVANT EXPERIENCE
+Software Engineering Intern
+TechStartup Inc. | Austin, TX
+June 2023 - August 2023 (3 months)
+• Developed features for mobile application using React Native, serving 50,000+ users
+• Implemented 5 RESTful API endpoints using Node.js and Express, improving data 
+  retrieval efficiency by 30%
+• Collaborated with team of 6 engineers using Git and GitHub, participating in 
+  daily standups and code reviews
+• Fixed 25+ bugs and wrote unit tests achieving 85% code coverage using Jest
+• Presented final project demo to 20+ stakeholders including CEO and CTO
+Web Development Intern
+Digital Agency LLC | Remote
+January 2023 - May 2023 (5 months)
+• Built 3 responsive websites for small business clients using HTML, CSS, 
+  JavaScript, and WordPress
+• Optimized website performance, improving load times by 40% through image 
+  compression and code minification
+• Integrated third-party APIs including Google Maps, Stripe payment processing, 
+  and social media feeds
+• Communicated directly with clients to gather requirements and provide weekly 
+  project updates
+ACADEMIC PROJECTS
+E-Commerce Platform (Senior Capstone Project) | Fall 2023
+• Led team of 4 students to develop full-stack e-commerce application using 
+  React, Node.js, and MongoDB
+• Implemented user authentication, product catalog, shopping cart, and payment 
+  processing features
+• Deployed application on AWS using EC2 and S3, serving 1,000+ test users
+• Received "Best Technical Project" award at university showcase
+• GitHub: github.com/michaelchen/ecommerce-platform
+Task Management Application | Spring 2023
+• Created full-stack task management app using Django and PostgreSQL
+• Implemented user authentication, CRUD operations, and task filtering/sorting
+• Designed responsive UI using Bootstrap and custom CSS
+• Deployed on Heroku with automated testing using Pytest
+Machine Learning Movie Recommender | Fall 2022
+• Built recommendation engine using Python, scikit-learn, and collaborative filtering
+• Processed dataset of 100,000+ movie ratings to generate personalized recommendations
+• Achieved 85% accuracy in predicting user preferences
+• Documented project with comprehensive README and Jupyter notebooks
+LEADERSHIP & ACTIVITIES
+Vice President, Computer Science Student Association | 2023-2024
+• Organized 10+ technical workshops and networking events for 200+ CS students
+• Coordinated mentorship program pairing upperclassmen with 30+ freshmen
+Volunteer Coding Instructor, Code for Kids | 2022-2024
+• Taught basic programming concepts to 30+ elementary school students
+• Developed hands-on coding activities using Scratch and Python
+CERTIFICATIONS
+AWS Certified Cloud Practitioner (2024)
+Google Analytics Individual Qualification (2024)
+freeCodeCamp Responsive Web Design Certification (2023)
+AWARDS & RECOGNITION
+Best Technical Project Award - UT Austin Senior Showcase (2023)
+Hackathon Winner - Austin Tech Hackathon (2023)
+Dean's List - 6 semesters

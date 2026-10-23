@@ -1,0 +1,98 @@
+from src.services.retrieval_query_builder import build_search_query
+from src.rag.retriever import retrieve_context
+from src.agents.analyzer_agent import analyze_cv
+
+sample_sections = {
+    "summary": """
+    Results-driven Senior Software Engineer with 8+ years of experience developing 
+    scalable web applications using Python, JavaScript, and cloud technologies. 
+    Expertise in microservices architecture, DevOps practices, and agile methodologies. 
+    Proven track record delivering high-performance systems serving 5M+ users with 
+    99.9% uptime and reducing infrastructure costs by $500K annually.
+    """,
+    "skills": """
+    Languages: Python, JavaScript, TypeScript, Java, SQL, HTML5, CSS3
+    Frontend: React, Redux, Next.js, Vue.js, Tailwind CSS
+    Backend: Django, Flask, Node.js, Express, FastAPI, RESTful APIs
+    Cloud & DevOps: AWS (EC2, S3, Lambda, RDS, CloudFront), Docker, Kubernetes, 
+    Terraform, Jenkins, GitLab CI/CD
+    Databases: PostgreSQL, MongoDB, Redis, MySQL, DynamoDB
+    Tools & Practices: Git, Jest, Pytest, Agile/Scrum, TDD, Microservices
+    """,
+    "experience": """
+    Senior Software Engineer
+    TechCorp Inc. | San Francisco, CA
+    January 2020 - Present
+    • Architected and developed microservices platform using Python and Django, 
+    improving system scalability to handle 10M+ daily requests with 99.95% uptime
+    • Led migration to AWS cloud infrastructure, reducing operational costs by $500K 
+    (40%) annually while improving system reliability and performance
+    • Implemented CI/CD pipeline using Jenkins and Docker, reducing deployment time 
+    from 4 hours to 15 minutes and enabling 20+ daily deployments
+    • Optimized database queries and implemented caching strategies using Redis, 
+    reducing API response time by 60% (from 500ms to 200ms)
+    • Mentored team of 5 junior developers through code reviews and pair programming, 
+    improving code quality and reducing bug rate by 45%
+    • Technologies: Python, Django, React, PostgreSQL, AWS, Docker, Kubernetes, Redis
+    Software Engineer
+    InnovateTech Solutions | San Francisco, CA
+    June 2017 - December 2019
+    • Developed RESTful APIs and backend services serving 1M+ users, achieving 
+    average response time of 150ms and 99.9% uptime
+    • Built real-time analytics dashboard using React and D3.js, providing insights 
+    that improved user retention by 25% and engagement by 35%
+    • Implemented automated testing suite using Jest and Pytest, increasing code 
+    coverage from 30% to 90% and reducing production bugs by 50%
+    • Collaborated with product team in agile sprints to deliver 15+ major features 
+    on schedule, contributing to $5M in new revenue
+    • Optimized application performance, reducing page load time by 55% and improving 
+    Core Web Vitals scores to 95th percentile
+    • Technologies: JavaScript, Node.js, React, MongoDB, Redis, AWS
+    Junior Software Engineer
+    Digital Solutions LLC | San Jose, CA
+    July 2015 - May 2017
+    • Developed and maintained e-commerce platform features using PHP and MySQL, 
+    supporting $2M in annual transactions
+    • Implemented automated testing framework, improving code coverage from 20% to 
+    75% and reducing regression bugs by 40%
+    • Fixed 200+ bugs and implemented 50+ feature requests based on customer feedback
+    • Participated in agile ceremonies including daily standups, sprint planning, 
+    and retrospectives
+    • Technologies: PHP, MySQL, JavaScript, jQuery, Bootstrap
+    """,
+    "education": """
+    Bachelor of Science in Computer Science
+    University of California, Berkeley | Berkeley, CA
+    Graduated: May 2015 | GPA: 3.8/4.0
+    Honors: Dean's List (All Semesters), CS Department Scholarship
+    Relevant Coursework: Data Structures, Algorithms, Database Systems, Software 
+    Engineering, Operating Systems, Computer Networks
+    CERTIFICATIONS
+    AWS Certified Solutions Architect - Associate (2023)
+    Certified Kubernetes Administrator (CKA) (2022)
+    MongoDB Certified Developer Associate (2021)
+    PROJECTS & OPEN SOURCE
+    Personal Portfolio Website - sarahmartinez.dev
+    • Built using Next.js, TypeScript, and Tailwind CSS with 10+ project showcases
+    Open Source Contributions
+    • Contributor to React ecosystem libraries with 5,000+ combined GitHub stars
+    • Maintained npm package with 2,000+ weekly downloads
+    • Active participant in Python and JavaScript communities
+    PROFESSIONAL AFFILIATIONS
+    Member, Association for Computing Machinery (ACM) - Since 2016
+    Member, Women in Technology International (WITI) - Since 2018
+    """
+}
+query = build_search_query(sample_sections)
+rag_context = retrieve_context(query)
+report = analyze_cv(sample_sections, rag_context)
+print("\n")
+print("="*80)
+print("RAG CONTEXT")
+print("="*80)
+print(rag_context)
+print("\n")
+print("="*80)
+print("CV ANALYSIS REPORT")
+print("="*80)
+print(report.model_dump_json(indent=2))

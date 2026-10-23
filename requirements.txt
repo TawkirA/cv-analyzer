@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-openai
+langchain-experimental
+langchain-community
+faiss-cpu
+pymupdf
+python-docx
+fastapi
+redis
+fastapi

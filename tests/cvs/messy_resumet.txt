@@ -1,0 +1,90 @@
+                    james anderson
+james.anderson123@hotmail.com
+                    555-9876
+OBJECTIVE: Seeking a challenging position in a reputable organization where I can utilize my skills and abilities to contribute to company success while growing professionally and personally.
+WORK EXPERIENCE:
+Software Developer
+Tech Solutions Inc, New York, NY
+2021-present
+•Developed software applications
+•worked with team members on various projects
+•Fixed bugs and issues
+•Participated in meetings
+Responsibilities included:
+-Writing code
+-Testing applications
+-debugging problems
+-Collaborating with others
+Junior Developer
+XYZ Company
+2019 - 2021
+* Assisted senior developers
+* Learned new technologies
+* Worked on different projects
+* Helped with documentation
+Intern - ABC Corp (2018-2019)
+Did various programming tasks, learned about software development, worked with team
+EDUCATION
+Bachelor's Degree in Computer Science
+State University, 2018
+GPA: 3.2
+SKILLS:
+Programming Languages: Java, Python, JavaScript, C++, HTML, CSS, SQL, Ruby, PHP, Swift
+Frameworks: React, Angular, Vue, Node.js, Django, Flask, Spring, .NET, Laravel
+Databases: MySQL, MongoDB, PostgreSQL, Oracle, Redis, Cassandra
+Tools: Git, Docker, Kubernetes, Jenkins, JIRA, Confluence, VS Code, Eclipse, IntelliJ
+Cloud: AWS, Azure, GCP
+Other: Agile, Scrum, DevOps, CI/CD, Microservices, REST APIs, GraphQL, TDD, OOP
+Soft Skills:
+Communication, Leadership, Team Player, Problem Solving, Critical Thinking, Time Management, Adaptability, Creativity, Work Ethic, Attention to Detail, Fast Learner, Self-Motivated, Organized, Flexible, Reliable, Hardworking, Dedicated, Passionate
+CERTIFICATIONS:
+AWS Certified Developer
+Google Cloud Certified
+Microsoft Azure Certified
+Oracle Java Certified
+Scrum Master Certified
+(All obtained in 2020-2023)
+PROJECTS:
+E-commerce Website - Built a full-stack e-commerce site using React and Node.js
+Mobile App - Created an iOS app using Swift
+Machine Learning Project - Developed ML model using Python
+Database Project - Designed database schema for large application
+LANGUAGES:
+English (Native)
+Spanish (Conversational)
+French (Basic)
+HOBBIES & INTERESTS:
+Gaming, Reading, Traveling, Photography, Cooking, Sports, Music, Movies, Hiking, Yoga
+References available upon request.
+ADDITIONAL INFORMATION:
+- Available to start immediately
+- Willing to relocate
+- Can work any shift
+- Flexible with salary expectations
+- Have own transportation
+- Willing to travel
+
+==================================================================
+
+Issues in this messy resume:
+
+Inconsistent formatting and spacing
+Multiple bullet point styles (•, *, -)
+Mixed date formats (2021-present, 2019 - 2021, 2018-2019)
+Unprofessional email (hotmail)
+Generic objective statement
+No quantified achievements
+Vague descriptions ("various projects", "different projects")
+Too many skills listed (appears unrealistic)
+Excessive soft skills without evidence
+Irrelevant information (hobbies, availability)
+Inconsistent capitalization
+Poor alignment and spacing
+Missing location information
+No LinkedIn or professional links
+References line (outdated practice)
+Salary flexibility mentioned (unprofessional)
+Too much white space in some areas, cramped in others
+Inconsistent company name formats
+Missing months in some dates
+Generic project descriptions without details or results

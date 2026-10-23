@@ -1,0 +1,115 @@
+PRIYA SHARMA
+Mumbai, India | +91-9876543210 | priya.sharma@email.com
+linkedin.com/in/priyasharma | github.com/priyasharma
+CAREER OBJECTIVE
+Recent Computer Science graduate seeking entry-level Software Developer position 
+to apply programming skills, contribute to innovative projects, and grow as a 
+professional software engineer in a dynamic technology organization.
+EDUCATION
+Bachelor of Technology (B.Tech) in Computer Science and Engineering
+Indian Institute of Technology (IIT) Bombay | Mumbai, India
+Graduated: June 2024 | CGPA: 8.7/10.0
+Relevant Coursework:
+• Data Structures and Algorithms
+• Database Management Systems
+• Operating Systems
+• Computer Networks
+• Software Engineering
+• Web Technologies
+• Object-Oriented Programming
+• Artificial Intelligence and Machine Learning
+• Cloud Computing
+TECHNICAL SKILLS
+Programming Languages: Python, Java, C++, JavaScript, HTML5, CSS3, SQL
+Web Technologies: React.js, Node.js, Express.js, Bootstrap, jQuery
+Databases: MySQL, MongoDB, PostgreSQL
+Tools & Technologies: Git, GitHub, VS Code, Eclipse, Postman, REST APIs
+Cloud Platforms: AWS (EC2, S3), Google Cloud Platform (basics)
+Operating Systems: Windows, Linux (Ubuntu)
+Concepts: Data Structures, Algorithms, OOP, DBMS, Software Development Life Cycle
+ACADEMIC PROJECTS
+Online Food Ordering System | Final Year Project | Jan 2024 - May 2024
+• Developed full-stack web application using React.js, Node.js, Express, and MongoDB
+• Implemented user authentication, restaurant search, cart management, and order 
+  tracking features
+• Integrated Razorpay payment gateway for secure online transactions
+• Deployed application on AWS EC2 with MongoDB Atlas database
+• Achieved 95% project grade and presented to panel of 5 faculty members
+• Technologies: React, Node.js, Express, MongoDB, REST APIs, JWT Authentication
+Student Management System | Database Course Project | Aug 2023 - Nov 2023
+• Designed and implemented relational database using MySQL with 15+ tables
+• Created database schema with proper normalization (3NF) and relationships
+• Developed Java application with JDBC connectivity for CRUD operations
+• Implemented stored procedures, triggers, and views for complex queries
+• Generated reports for student attendance, grades, and performance analysis
+• Technologies: MySQL, Java, JDBC, SQL
+E-Learning Platform | Web Development Project | Feb 2023 - May 2023
+• Built responsive web application for online courses using HTML, CSS, JavaScript
+• Implemented course catalog, video player, quiz module, and progress tracking
+• Designed user-friendly interface with Bootstrap framework
+• Created admin panel for course management and user administration
+• Technologies: HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL
+Machine Learning Image Classifier | AI/ML Project | Sep 2022 - Dec 2022
+• Developed image classification model using Python and TensorFlow
+• Trained CNN model on dataset of 10,000+ images with 92% accuracy
+• Implemented data preprocessing, augmentation, and model optimization techniques
+• Created web interface using Flask for image upload and prediction
+• Technologies: Python, TensorFlow, Keras, NumPy, Pandas, Flask
+INTERNSHIP EXPERIENCE
+Software Development Intern
+TechVista Solutions Pvt Ltd | Mumbai, India
+June 2023 - August 2023 (3 months)
+• Developed web application features using React.js and Node.js for client project
+• Fixed 15+ bugs and implemented 8 feature requests based on client feedback
+• Participated in daily standup meetings and sprint planning sessions
+• Collaborated with team of 6 developers using Git for version control
+• Learned agile development methodology and professional coding practices
+• Received "Best Intern" certificate for outstanding performance
+CERTIFICATIONS
+• Python for Data Science - Coursera (IBM) | 2024
+• AWS Certified Cloud Practitioner | 2024
+• Full Stack Web Development - Udemy | 2023
+• Java Programming Masterclass - Coursera | 2023
+• Introduction to Machine Learning - NPTEL | 2023
+ACHIEVEMENTS & EXTRACURRICULAR ACTIVITIES
+Technical Achievements:
+• Winner - IIT Bombay Hackathon 2023 (Team of 4, built healthcare app in 24 hours)
+• 2nd Place - National Level Coding Competition organized by TechFest 2023
+• Solved 300+ problems on LeetCode and HackerRank platforms
+• 5-star rating in Python on HackerRank
+Leadership & Activities:
+• Technical Coordinator, Computer Science Department Student Association (2023-2024)
+  - Organized 5 technical workshops attended by 200+ students
+  - Coordinated coding competitions and hackathons
+• Volunteer, NSS (National Service Scheme) - Teaching coding to underprivileged 
+  children (2022-2024)
+• Member, Coding Club IIT Bombay (2021-2024)
+ADDITIONAL INFORMATION
+• Languages: English (Fluent), Hindi (Native), Marathi (Native)
+• Portfolio Website: priyasharma.dev (showcasing 10+ projects)
+• GitHub Profile: github.com/priyasharma (20+ repositories)
+• LeetCode Profile: 300+ problems solved, 1800+ rating
+• Quick learner with strong problem-solving and analytical skills
+• Excellent team player with good communication abilities
+• Available to join immediately
+• Open to relocation anywhere in India
+
+=========================================================
+
+Characteristics of this fresher resume:
+
+Clear educational focus (education section near top)
+Detailed academic projects (compensating for limited work experience)
+Relevant coursework listed
+Internship experience highlighted
+Multiple certifications showing initiative
+Technical skills prominently displayed
+Achievements and extracurricular activities included
+Career objective appropriate for fresher
+Portfolio and GitHub links included
+Coding platform profiles mentioned (LeetCode, HackerRank)
+Hackathon and competition wins highlighted
+Academic grades included (CGPA)
+Shows enthusiasm and willingness to learn
+Appropriate length (fits on 1-2 pages)
+India-specific format elements (CGPA, B.Tech, IIT)
