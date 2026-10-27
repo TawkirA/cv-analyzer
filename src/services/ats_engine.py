@@ -63,13 +63,21 @@ def score_section_completeness(sections: dict):
             reasons.append(
                 f"Missing required section: {section}"
             )
-    
+
     for section in OPTIONAL_SECTIONS:
         if section in sections and sections[section].strip():
             score += 2.5
-    
+
+    # Penalise missing summary header — summary content was found but has no header.
+    if sections.get("_missing_summary_header", "").strip() == "true":
+        reasons.append(
+            "Summary content detected but lacks a clear header "
+            "(e.g. 'Professional Summary', 'Profile', 'Objective')"
+        )
+        score = max(score - 3, 0)
+
     return ATSCategoryScore(
-        category = "Section Completeness",
+        category="Section Completeness",
         score=score,
         max_score=25,
         reason=(
@@ -176,12 +184,15 @@ def score_skills_clarity(sections: dict):
     )
     
 def generate_ats_report(sections: dict):
+    # Strip internal sentinel keys (prefixed with _) before passing to scorers
+    # that iterate over section values (keyword, readability, formatting).
+    public_sections = {k: v for k, v in sections.items() if not k.startswith("_")}
     breakdown = [
-        score_section_completeness(sections),
-        score_keyword_optimization(sections),
-        score_readability(sections),
-        score_formatting(sections),
-        score_skills_clarity(sections)
+        score_section_completeness(sections),   # needs sentinels for flag checks
+        score_keyword_optimization(public_sections),
+        score_readability(public_sections),
+        score_formatting(public_sections),
+        score_skills_clarity(public_sections)
     ]
     
     total_score = sum(

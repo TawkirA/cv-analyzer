@@ -1,6 +1,9 @@
 langgraph
 langchain
 langchain-openai
+langchain-google-genai
+langchain-anthropic
+langchain-ibm
 langchain-experimental
 langchain-community
 faiss-cpu
@@ -8,4 +11,5 @@ pymupdf
 python-docx
 fastapi
 redis
-fastapi
+streamlit
+reportlab

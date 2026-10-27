@@ -1,3 +1,16 @@
+import sys
+from pathlib import Path
+
+# Ensure UTF-8 output on Windows consoles
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
+# Ensure workspace root is in sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+
 from src.services.retrieval_query_builder import build_search_query
 from src.rag.retriever import retrieve_context
 from src.agents.analyzer_agent import analyze_cv

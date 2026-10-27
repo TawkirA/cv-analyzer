@@ -22,7 +22,8 @@ def retrieve_context_node(state):
 def llm_analysis_node(state):
     report = analyze_cv(
         cv_sections=state["cv_sections"],
-        rag_context=state["rag_context"]
+        rag_context=state["rag_context"],
+        llm_config=state.get("llm_config")
     )
     state["llm_analysis"] = report.model_dump()
     return state
@@ -36,6 +37,10 @@ def report_merger_node(state):
     return state
 
 def analyze_cv_node(state):
-    report = analyze_cv(cv_sections=state["cv_sections"], rag_context=state["rag_context"])
+    report = analyze_cv(
+        cv_sections=state["cv_sections"],
+        rag_context=state["rag_context"],
+        llm_config=state.get("llm_config")
+    )
     state["analysis_report"] = report.model_dump()
     return state

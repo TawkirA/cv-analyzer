@@ -68,7 +68,7 @@ class CVParserTool(BaseModel):
     def _parse_docx(self, file_path: str) -> dict:
         """Extract text and structure from DOCX."""
         doc = docx.Document(file_path)
-        paragraph = [p.text for p in doc.paragraphs if p.text.strip()]
+        paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
         return {
             "raw_text": "\n".join(paragraphs),
             "formatting": {
@@ -76,7 +76,7 @@ class CVParserTool(BaseModel):
                 "paragraphs": len(paragraphs)
             },
             "file_type": "docx"
-        }       
+        }
         
     def _arun(self, file_path: str) -> dict:
         """Async version."""

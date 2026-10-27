@@ -1,0 +1,51 @@
+ALEX MORGAN
+London, UK | alex.morgan@email.com | +44 7700 900123
+
+A results-driven software engineer with 6 years of experience building scalable
+backend services and cloud-native applications. Passionate about clean architecture,
+microservices, and delivering high-quality software in agile teams. Proven ability
+to lead technical initiatives and mentor junior developers.
+
+EXPERIENCE
+Senior Software Engineer
+FinTech Innovations Ltd | London, UK
+March 2021 - Present
+- Designed and implemented RESTful APIs serving 2M+ requests per day using Python and FastAPI
+- Led migration of monolithic codebase to microservices on AWS, reducing deployment time by 40%
+- Mentored 3 junior engineers and conducted code reviews for a team of 8
+
+Software Engineer
+DataStream Corp | Manchester, UK
+June 2018 - February 2021
+- Built real-time data pipelines using Apache Kafka and Python
+- Developed CI/CD pipelines with Jenkins and Docker, cutting release cycle from 2 weeks to 3 days
+- Collaborated with product and design teams to deliver 5 major feature releases
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Manchester | Manchester, UK
+Graduated: 2018 | First Class Honours
+
+SKILLS
+Programming Languages: Python, JavaScript, Go, SQL
+Frameworks: FastAPI, Django, React, Node.js
+Cloud & DevOps: AWS (EC2, Lambda, S3, RDS), Docker, Kubernetes, Terraform, Jenkins, CI/CD
+Databases: PostgreSQL, MongoDB, Redis
+Tools: Git, JIRA, Confluence, VS Code
+
+CERTIFICATIONS
+AWS Certified Developer – Associate (2023)
+Certified Kubernetes Application Developer (CKAD) (2022)
+
+LANGUAGES
+English (Native)
+French (Conversational)
+
+==================================================================
+
+Notes on this CV:
+- Has a prose summary paragraph at the very top with NO section header
+- The paragraph should be detected as an implicit summary
+- The _missing_summary_header flag should be set to "true"
+- The ATS report should penalise the missing header and recommend adding one
+- Skills sub-labels (Programming Languages, Frameworks, etc.) must NOT hijack the languages section
