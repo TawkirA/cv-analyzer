@@ -10,6 +10,8 @@ faiss-cpu
 pymupdf
 python-docx
 fastapi
+uvicorn
+python-multipart
 redis
 streamlit
 reportlab

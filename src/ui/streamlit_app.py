@@ -12,6 +12,7 @@ from src.services.llm_factory import (
     get_default_api_key,
     validate_llm_config
 )
+from src.services.access_control import validate_access_key
 from src.graph.workflow import build_workflow
 from src.graph.state import GraphState
 from src.rag.retriever import warm_up_vectordb
@@ -200,7 +201,14 @@ with st.sidebar:
         st.caption("🔒 *API key auto-detected from environment*")
     elif not has_env_key and not api_key_input:
         st.caption("⚠️ *API key required to run analysis*")
-        
+
+    access_key_input = st.text_input(
+        "API Key",
+        type="password",
+        placeholder="Application access key (base64)",
+        help="Access key required to process documents and run analysis"
+    )
+
     project_id_input = ""
     watsonx_url_input = "https://us-south.ml.cloud.ibm.com"
     if selected_provider == "IBM watsonx":
@@ -247,7 +255,14 @@ with st.sidebar:
         st.caption(f"**Filename:** `{uploaded_file.name}`")
         st.info("📋 File ready — click **Process Document** to extract sections.", icon=None)
 
-        if st.button("Process Document", use_container_width=True, type="secondary"):
+        process_clicked = st.button("Process Document", use_container_width=True, type="secondary")
+        if process_clicked:
+            access_ok, access_err = validate_access_key(access_key_input)
+            if not access_ok:
+                st.error(f"❌ {access_err}")
+                process_clicked = False
+
+        if process_clicked:
             suffix = uploaded_file.name.split(".")[-1]
             with st.spinner("⏳ Loading CV..."):
                 with tempfile.NamedTemporaryFile(delete=False, suffix=f".{suffix}") as temp_file:
@@ -309,8 +324,11 @@ if st.session_state.sections:
         col_btn, col_info = st.columns([1.3, 2.7])
         with col_btn:
             if st.button("🚀 Run Comprehensive Analysis", type="primary", use_container_width=True):
+                access_ok, access_err = validate_access_key(access_key_input)
                 is_valid, err_msg = validate_llm_config(llm_config)
-                if not is_valid:
+                if not access_ok:
+                    st.error(f"❌ {access_err}")
+                elif not is_valid:
                     st.error(f"❌ {err_msg}")
                 else:
                     try:

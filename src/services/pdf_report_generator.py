@@ -21,7 +21,7 @@ class NumberedCanvas(canvas.Canvas):
 
     def showPage(self):
         self._saved_page_states.append(dict(self.__dict__))
-        self._startPage()
+        super().showPage()
 
     def save(self):
         num_pages = len(self._saved_page_states)
@@ -63,7 +63,7 @@ def _safe_escape(text) -> str:
     return escape(text_str)
 
 
-def generate_pdf_report(report_data: dict, candidate_filename: str = None, model_name: str = None) -> bytes:
+def generate_pdf_report(report_data: dict, candidate_filename: str | None = None, model_name: str | None = None) -> bytes:
     """
     Generates a beautifully styled, comprehensive ATS & CV Analysis Report as a PDF byte stream.
     """
